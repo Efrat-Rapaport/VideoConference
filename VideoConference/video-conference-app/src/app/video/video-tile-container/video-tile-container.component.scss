@@ -1,0 +1,28 @@
+.video-container-div {
+    position: relative;
+    width: 98%;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+
+.video-container-div-center {
+    position: relative;
+    top: 2%;
+    width: 96%;
+    height: 96%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.app-video-tiles {
+    flex: 1;
+    margin: 1% 0;
+    width: 100%;
+    overflow: hidden;
+}

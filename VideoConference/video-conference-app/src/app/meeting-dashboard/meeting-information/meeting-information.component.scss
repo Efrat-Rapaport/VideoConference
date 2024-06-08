@@ -1,0 +1,53 @@
+.side-dashboard {
+    background-color: rgb(23, 35, 89);
+    position: fixed;
+    right: 0;
+    top: 3%;
+    bottom: 2%;
+    width: 9%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.mat-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+mat-list-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+p {
+    margin: 0;
+    color: white;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.button-exit {
+    max-width: 80%;
+    position: absolute;
+    bottom: 2%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}

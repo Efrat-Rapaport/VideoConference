@@ -1,0 +1,28 @@
+.main-gallery {
+    background-color: rgb(23, 35, 89);
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    top: 13%;
+    right: 11%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.app-video-tiles {
+    flex: 0 0 87%;
+    margin: 1% 1% 0;
+    min-height: 87%;
+    max-height: 87%;
+    max-width: 100%;
+    overflow: auto;
+}
+
+.app-video-tile-control {
+    position: relative;
+    bottom: 0.5%;
+    height: 10%;
+    margin: 1%;
+}

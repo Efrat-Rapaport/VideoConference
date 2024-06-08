@@ -1,0 +1,32 @@
+<div class="side-dashboard">
+    <mat-list fxFlex fxLayout="column">
+        <mat-list-item fxFlex="1" fxFlexFill>
+            <div class="button-content" (click)="presentParticipants()">
+                <br>
+                <mat-icon matBadge="{{ participantsList.length }}" matBadgeOverlap="false">people</mat-icon>
+                <p>משתתפים</p>
+            </div>
+        </mat-list-item>
+        <mat-list-item fxFlex="1" fxFlexFill>
+            <div class="button-content" (click)="viewSettings()">
+                <mat-icon>settings</mat-icon>
+                <p>הגדרות</p>
+            </div>
+        </mat-list-item>
+        <mat-list-item fxFlex="1" fxFlexFill>
+            <div class="button-content" (click)="presentManager()">
+                <mat-icon>person_outline</mat-icon>
+                <p>מנהל דיון</p>
+            </div>
+        </mat-list-item>
+        <mat-list-item fxFlex="1" fxFlexFill>
+            <div class="button-content" (click)="presentDetails()">
+                <mat-icon>forum</mat-icon>
+                <p>פרטי דיון</p>
+            </div>
+        </mat-list-item>
+    </mat-list>
+    <div class="button-exit" (click)="exit()">
+        <button mat-stroked-button color="warn">יציאה מהדיון</button>
+    </div>
+</div>

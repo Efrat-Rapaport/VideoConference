@@ -1,0 +1,46 @@
+.details-div {
+    position: absolute;
+    top: 3%;
+    left: 1.8%;
+    right: 10%;
+    height: 7%;
+}
+
+.name-number-div {
+    position: relative;
+    top: 20%;
+    right: 3%;
+    text-align: right;
+}
+
+.record-div {
+    position: relative;
+    top: 20%;
+    text-align: left;
+}
+
+.outer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.name-number-td,
+.record-td {
+    width: 50%;
+    vertical-align: top;
+}
+
+.name-number-div b {
+    margin: 0;
+    color: white;
+    font-size: 1vw;
+}
+
+.record-div p {
+    margin: 0;
+    color: white;
+    font-size: 1vw;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}

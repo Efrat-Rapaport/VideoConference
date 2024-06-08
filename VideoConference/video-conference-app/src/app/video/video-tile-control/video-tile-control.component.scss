@@ -1,0 +1,69 @@
+.tile-control {
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 85%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.tile-control-btn {
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    left: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tile-control-btn button {
+    margin: 0 0.5vw;
+    background-color: rgb(11, 24, 73);
+    height: 5vh;
+}
+
+mat-icon {
+    width: 1vw;
+    height: 1vw;
+}
+
+button b {
+    font-size: 1vw;
+}
+
+.live-time-div {
+    position: relative;
+    width: auto;
+    height: 100%;
+    left: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.live-label {
+    width: auto;
+    height: auto;
+    background-color: red;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2vw;
+    font-size: 0.7em;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}

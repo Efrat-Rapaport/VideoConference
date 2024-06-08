@@ -1,0 +1,19 @@
+<div class="tile-control">
+
+    <div class="tile-control-btn">
+        <button mat-raised-button (click)="shareScreen()">
+            <mat-icon>screen_share</mat-icon><b>שיתוף</b>
+        </button>
+        <button mat-raised-button (click)="changeMicMode()">
+            <mat-icon>mic</mat-icon><b>מקרופון</b>
+        </button>
+        <button mat-raised-button (click)="changeCameraMode()">
+            <mat-icon>videocam</mat-icon><b>מצלמה</b>
+        </button>
+
+    </div>
+    <div class="live-time-div">
+        <mat-label class="live-label">Live</mat-label>
+        <app-timer class="timer"></app-timer>
+    </div>
+</div>

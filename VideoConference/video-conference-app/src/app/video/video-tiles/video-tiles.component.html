@@ -1,0 +1,19 @@
+<div class="video-tiles-div">
+    <mat-grid-list [cols]="calculateCols()" [rowHeight]="calculateRowHeight()">
+        <mat-grid-tile class="mat-grid-tile" *ngFor="let participant of participantsList">
+            <div class="tile-content">
+                <mat-label class="custom-label">{{ participant.name }}</mat-label>
+                <img [src]="participant.imageURL" alt="{{ participant.name }}">
+                <div class="bottom-bar">
+                    <mat-icon class="mic-icon">mic</mat-icon>
+                    <div class="participant-info">
+                        <mat-label style=" color: rgb(92, 92, 243)">{{ participant.title }}</mat-label>
+                        <br>
+                        <mat-label style=" color: white; ">{{ participant.name }}</mat-label>
+                    </div>
+                </div>
+            </div>
+
+        </mat-grid-tile>
+    </mat-grid-list>
+</div>
